@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;JodaTime.scala&apos; to &apos;sbtProject/src/main/scala/jodatime.example&apos;&#x0D;&#x0A;- Original project: &apos;sbtProject&apos;&#x0D;&#x0A;- Destination element: &apos;sbtProject/src/main/scala/jodatime.example&apos;&#x0D;&#x0A;- Original element: &apos;JodaTime.scala&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="/src\/main\/scala&lt;jodatime.example" element1="src/main/scala/JodaTime.scala" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1485649132920" units="0" version="1.0"/>
+</session>

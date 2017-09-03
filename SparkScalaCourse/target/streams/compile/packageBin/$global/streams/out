@@ -1,0 +1,19 @@
+[0m[[0minfo[0m] [0mPackaging C:\SparkScala\SparkScalaCourse\target\scala-2.11\ratingcounter_2.11-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	com\nustartech\spark[0m
+[0m[[0mdebug[0m] [0m	  C:\SparkScala\SparkScalaCourse\target\scala-2.11\classes\com\nustartech\spark[0m
+[0m[[0mdebug[0m] [0m	com\nustartech\spark\RatingsCounter.class[0m
+[0m[[0mdebug[0m] [0m	  C:\SparkScala\SparkScalaCourse\target\scala-2.11\classes\com\nustartech\spark\RatingsCounter.class[0m
+[0m[[0mdebug[0m] [0m	com[0m
+[0m[[0mdebug[0m] [0m	  C:\SparkScala\SparkScalaCourse\target\scala-2.11\classes\com[0m
+[0m[[0mdebug[0m] [0m	com\nustartech\spark\RatingsCounter$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  C:\SparkScala\SparkScalaCourse\target\scala-2.11\classes\com\nustartech\spark\RatingsCounter$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	com\nustartech[0m
+[0m[[0mdebug[0m] [0m	  C:\SparkScala\SparkScalaCourse\target\scala-2.11\classes\com\nustartech[0m
+[0m[[0mdebug[0m] [0m	com\nustartech\spark\RatingsCounter$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	  C:\SparkScala\SparkScalaCourse\target\scala-2.11\classes\com\nustartech\spark\RatingsCounter$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	com\nustartech\spark\RatingsCounter$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  C:\SparkScala\SparkScalaCourse\target\scala-2.11\classes\com\nustartech\spark\RatingsCounter$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	com\nustartech\spark\RatingsCounter$.class[0m
+[0m[[0mdebug[0m] [0m	  C:\SparkScala\SparkScalaCourse\target\scala-2.11\classes\com\nustartech\spark\RatingsCounter$.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
