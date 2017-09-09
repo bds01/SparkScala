@@ -41,12 +41,9 @@ INDEX VERSION 1.129+C:\SparkScala\.metadata\.plugins\org.eclipse.jdt.core
 725114646.index
 2786809565.index
 2600065751.index
-1525087677.index
 2216595195.index
 2537559513.index
-1199826107.index
 2960237055.index
-2997567257.index
 1878767016.index
 1203544887.index
 1948942899.index
@@ -63,7 +60,6 @@ INDEX VERSION 1.129+C:\SparkScala\.metadata\.plugins\org.eclipse.jdt.core
 1563279846.index
 508702904.index
 2729264940.index
-3314433690.index
 973839164.index
 1329417549.index
 3632255161.index
@@ -90,7 +86,6 @@ INDEX VERSION 1.129+C:\SparkScala\.metadata\.plugins\org.eclipse.jdt.core
 3153279004.index
 2964822643.index
 4094323540.index
-3726721386.index
 1728214848.index
 4171848318.index
 598786256.index
@@ -120,13 +115,10 @@ INDEX VERSION 1.129+C:\SparkScala\.metadata\.plugins\org.eclipse.jdt.core
 2371277110.index
 2668478191.index
 1192367445.index
-2221491804.index
 88545276.index
 3170317037.index
-3643810303.index
 1218362520.index
 1514115146.index
-194205294.index
 1586838343.index
 4294782575.index
 1212190581.index
@@ -171,12 +163,10 @@ INDEX VERSION 1.129+C:\SparkScala\.metadata\.plugins\org.eclipse.jdt.core
 906507793.index
 4261684512.index
 3721269365.index
-1539866187.index
 264185193.index
 2968233282.index
 3184696841.index
 941682906.index
-2911469802.index
 3543556885.index
 1332646071.index
 2206919259.index
@@ -189,8 +179,6 @@ INDEX VERSION 1.129+C:\SparkScala\.metadata\.plugins\org.eclipse.jdt.core
 3455033832.index
 2852746706.index
 1856222829.index
-543038442.index
-30881555.index
 3991900319.index
 2707572339.index
 907368330.index
@@ -237,7 +225,6 @@ INDEX VERSION 1.129+C:\SparkScala\.metadata\.plugins\org.eclipse.jdt.core
 3513567469.index
 2090854966.index
 3511183805.index
-843494433.index
 1306944624.index
 4195040079.index
 480265905.index
@@ -248,7 +235,6 @@ INDEX VERSION 1.129+C:\SparkScala\.metadata\.plugins\org.eclipse.jdt.core
 686600322.index
 1049571268.index
 1847102074.index
-1475717011.index
 4009346660.index
 1568317428.index
 2554268644.index
@@ -263,7 +249,6 @@ INDEX VERSION 1.129+C:\SparkScala\.metadata\.plugins\org.eclipse.jdt.core
 3295145730.index
 4144736060.index
 884988188.index
-449440424.index
 69614604.index
 2052622247.index
 1601063580.index
@@ -299,14 +284,12 @@ INDEX VERSION 1.129+C:\SparkScala\.metadata\.plugins\org.eclipse.jdt.core
 1804336905.index
 3037982248.index
 623935678.index
-2561179376.index
 3005046160.index
 2433118531.index
 27822846.index
 3632183808.index
 3840594702.index
 3944885821.index
-1841280308.index
 3847662709.index
 1929898611.index
 2232551207.index
@@ -341,7 +324,6 @@ INDEX VERSION 1.129+C:\SparkScala\.metadata\.plugins\org.eclipse.jdt.core
 4033047869.index
 4244952877.index
 2294257440.index
-91472061.index
 3037456040.index
 2987505643.index
 320453996.index

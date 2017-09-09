@@ -597,3 +597,5 @@ Caused by: com.cedarsoftware.util.io.JsonIoException: EOF reached prematurely
 2017-09-03 13:37:10,127  WARN [main] - ScalaProject - Project sbtProject runs on platform default installation.
 2017-09-03 13:37:43,366  WARN [main] - ScalaProject - Project ParseJSON has platform default sourceLevel.
 2017-09-03 13:37:43,366  WARN [main] - ScalaProject - Project ParseJSON runs on platform default installation.
+2017-09-08 08:59:29,831 ERROR [main] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob).
+2017-09-08 08:59:29,836 ERROR [main] - System.err - log4j:WARN Please initialize the log4j system properly.
