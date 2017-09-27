@@ -1,0 +1,16 @@
+package com.nustartech.spark
+
+import org.apache.spark.{SparkConf, SparkContext}
+import org.apache.spark.sql.functions._
+import org.apache.log4j._
+import scala.xml._
+
+object ParseXML {
+  def main(args: Array[String]) {
+ 
+    val inputFile = "../Files/books.xml"
+    
+    val dfSchema = sqlContext.read
+       .format
+  }
+}

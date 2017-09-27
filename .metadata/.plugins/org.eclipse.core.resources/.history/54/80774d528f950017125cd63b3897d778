@@ -1,0 +1,8 @@
+package com.nustartech.spark
+
+import org.apache.spark.{SparkConf, SparkContext}
+import org.apache.log4j._
+
+object ParseXML {
+  
+}

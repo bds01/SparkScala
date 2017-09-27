@@ -1,0 +1,7 @@
+package com.testpkg.xmlparse
+
+import org.apache.spark._
+
+object ParseXML {
+  
+}

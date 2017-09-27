@@ -1,0 +1,9 @@
+package com.testpkg.xmlparse
+
+import org.apache.spark._
+import org.apache.spark.{DataFrame, SQLContext}
+import com.databricks.spark.xml
+
+object ParseXML {
+  
+}

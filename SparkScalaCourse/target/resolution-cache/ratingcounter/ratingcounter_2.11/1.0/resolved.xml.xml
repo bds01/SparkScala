@@ -4,7 +4,7 @@
 		module="ratingcounter_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170202235020"
+		publication="20170909160456"
 	>
 		<description>
 		RatingCounter
@@ -35,5 +35,7 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.8" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-core_2.11" rev="2.0.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-sql_2.10" rev="2.0.0" conf="compile->default(compile)"/>
+		<dependency org="com.databricks" name="spark-xml_2.10" rev="0.4.1" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

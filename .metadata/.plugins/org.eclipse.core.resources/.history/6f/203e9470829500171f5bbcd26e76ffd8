@@ -1,0 +1,30 @@
+//package com.testpkg.xmlparse
+
+import org.apache.spark.{SparkConf, SparkContext}
+import org.apache.spark.sql._
+import org.apache.log4j._
+import com.databricks.spark.xml
+
+object ParseXML {
+  def main(args: Array[String]) {
+    // Set the log level to only print errors
+    Logger.getLogger("org").setLevel(Level.ERROR)
+        
+    // Create a SparkContext using every core of the local machine, named RatingsCounter
+    val sc = new SparkContext("local[*]", "ParseXML")
+    
+    val sqlContext = new SQLContext(sc)
+    val df = sqlContext.read
+           .format("com.databricks.spark.xml")
+           .option("rowTag", "book")
+           .load("../Files/books.xml")
+           
+    val selectedData = df.select("author", "_id")
+    selectedData.write
+    .format("com.databricks.spark.xml")
+    .option("rootTag", "books")
+    .option("rowTag", "book")
+    .save("../NewFile.xml")
+
+  }
+}

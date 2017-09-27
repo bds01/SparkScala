@@ -1,0 +1,17 @@
+package com.nustartech.spark
+
+import org.apache.spark.{SparkConf, SparkContext}
+import org.apache.spark.sql._
+import org.apache.log4j._
+import scala.xml._
+
+object ParseXML {
+  def main(args: Array[String]) {
+ 
+    val xml = XML.loadFile("../Files/books.xml")
+    
+    val noofItems = xml.length
+    
+    println(s"The number of items is:$noofItems")
+  }
+}

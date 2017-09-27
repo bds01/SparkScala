@@ -1,6 +1,7 @@
 
 import scala.io.Source
 
+// Read the data from the text file
 object Example01 {
     def main(args: Array[String]) {
       

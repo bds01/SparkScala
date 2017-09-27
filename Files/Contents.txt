@@ -1,0 +1,12 @@
+Hive is often referred to as the data warehouse for a Hadoop cluster. 
+Hive provides the data integrity and schema for the data. 
+It can structure the data and store it in HDFS file system. 
+Data is not indexed in Hadoop but in can be indexed in database world. 
+In Hadoop you cannot do row level operation. You can update or delete the data. 
+Hive support most of the data types supported by databases. 
+In Hive you can create 2 types of tables, Managed or Internal tables and External tables. 
+When you drop internal table data and metadata will be lost. 
+When you drop the external table only the metadata is lost. 
+Hive file formats are Avro, ORC, RegEx, Parquet and CSV. 
+You can store the data in any of these formats in Hive. 
+Hive is most commonly used with HBase
