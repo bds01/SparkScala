@@ -1,0 +1,24 @@
+Database Projects:
+
+NYC Brooklyn Libraries data (To load data and create sample reports)
+https://data.cityofnewyork.us/Recreation/Brooklyn-Public-Library-Catalog/ym2h-u9dt
+https://data.cityofnewyork.us/Recreation/Directory-of-Beaches/zyf6-z3xt
+
+NYC School survey data (Joinning different pieces of data, storing metadata)
+https://data.cityofnewyork.us/Education/2017-NYC-School-Survey/kwk4-6u9e
+http://schools.nyc.gov/Accountability/tools/survey/default.htm
+
+NYC Budget data (To load pieces of data into staging, convert to Dimensional Model)
+https://data.cityofnewyork.us/City-Government/Checkbook-NYC-2-0/mxwn-eh3b
+
+NYC Tariff data (To show the tables and the relationships)
+https://data.cityofnewyork.us/NYC-BigApps/Tariff-Data-APIs/tpe4-3w5y
+
+MLS data from Redfin
+https://www.biggerpockets.com/forums/80/topics/154281-how-to-create-your-own-mls-database-for-free-without-access-to-the-mls
+
+List of APIs
+https://www.programmableweb.com/category/real%20estate/apis?category=20211&page=1
+
+MTA Open Data
+https://data.cityofnewyork.us/Transportation/MTA-Data/mmu8-8w8b
