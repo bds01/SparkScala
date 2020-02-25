@@ -1,0 +1,36 @@
+CREATE TABLE
+(FirstName VARCHAR(50),
+ LastName VARCHAR(50),
+ Company VARCHAR(100),
+ Address VARCHAR(200),
+ City VARCHAR(30),
+ Country VARCHAR(30),
+ State VARCHAR(30),
+ ZIP VARCHAR(10),
+ Phone VARCHAR(20),
+ Fax VARCHAR(20),
+ Email VARCHAR(100),
+ Web VARCHAR(100)
+)
+
+https://azresourcegroupdiag506.blob.core.windows.net/datain/customers.csv
+
+adminsa
+Admin123
+
+CREATE LOGIN LoaderRC20 WITH PASSWORD = 'Selectedrc2020'
+CREATE USER LoaderRC20 FOR LOGIN LoaderRC20;
+
+CREATE USER LoaderRC20 FOR LOGIN LoaderRC20;
+GRANT CONTROL ON DATABASE::[TestDB] to LoaderRC20;
+EXEC sp_addrolemember 'staticrc20', 'LoaderRC20';
+
+
+CREATE MASTER KEY;
+
+CREATE EXTERNAL DATA SOURCE mYCustomers
+WITH
+(
+    TYPE = Hadoop,
+    LOCATION = 'wasbs://datain@azresourcegroupdiag506.blob.core.windows.net/'
+);
