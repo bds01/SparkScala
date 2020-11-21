@@ -1,6 +1,3 @@
-Siva Kumar
-sivakumar.g@saksoft.com
-908-864-0367
 
 - Dynamic and Static partitioning, Bucketing in HIVE
 - Parse textfile, Json, XML, Parquet, Avro, ORC
@@ -17,8 +14,6 @@ Data Factory:
 - partition based on file name
 
 !connect jdbc:hive2://sandbox-host.hortonworks.com:10000/default
-
-Horizon Blue sales: 800-224-1234
 
 On Databricks:
 https://techgimmick.wordpress.com/2018/04/10/sortbykey-groupbykey-aggregatebykey-reducebykey/
