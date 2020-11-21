@@ -1,0 +1,87 @@
+Siva Kumar
+sivakumar.g@saksoft.com
+908-864-0367
+
+- Dynamic and Static partitioning, Bucketing in HIVE
+- Parse textfile, Json, XML, Parquet, Avro, ORC
+- Snappy Compression
+- Mount Blob Storage, S3 bucket
+- Performance tuning spark jobs
+
+Data Factory:
+- Load data into a table based on category
+- Incremental/Differential Load
+- Slowly Changing dimensions
+- Switch datasets dynamically
+- ForEach loop, Get metadata activity
+- partition based on file name
+
+!connect jdbc:hive2://sandbox-host.hortonworks.com:10000/default
+
+Horizon Blue sales: 800-224-1234
+
+On Databricks:
+https://techgimmick.wordpress.com/2018/04/10/sortbykey-groupbykey-aggregatebykey-reducebykey/
+https://acadgild.com/blog/broadcast-variables-and-accumulators-in-spark
+https://sparkbyexamples.com/pyspark/pyspark-udf-user-defined-function/
+https://sparkbyexamples.com/pyspark/pyspark-repartition-vs-coalesce/
+https://sparkbyexamples.com/spark/spark-dataframe-cache-and-persist-explained/
+https://sparkbyexamples.com/spark/spark-map-vs-mappartitions-transformation/
+https://sparkbyexamples.com/spark/spark-foreachpartition-vs-foreach-explained/
+https://docs.databricks.com/delta/delta-batch.html
+https://docs.databricks.com/delta/delta-streaming.html
+https://docs.databricks.com/delta/delta-update.html#language-python
+https://stackoverflow.com/questions/60512207/partitionby-overwrite-strategy-in-an-azure-datalake-using-pyspark-in-databrick
+https://docs.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-resource-manager
+https://medium.com/datalex/on-spark-performance-and-partitioning-strategies-72992bbbf150
+https://medium.com/datalex/sparks-logical-and-physical-plans-when-why-how-and-beyond-8cd1947b605a
+https://medium.com/dataseries/determining-number-of-partitions-in-apache-spark-part-i-e21a9ced6ad4
+https://medium.com/swlh/building-partitions-for-processing-data-files-in-apache-spark-2ca40209c9b7
+https://blog.clairvoyantsoft.com/optimize-the-skew-in-spark-e523c6ee18ac
+
+simpleData = [("James","Sales","NY",90000,34,10000),
+    ("Michael","Sales","NY",86000,56,20000),
+    ("Robert","Sales","CA",81000,30,23000),
+    ("Maria","Finance","CA",90000,24,23000),
+    ("Raman","Finance","CA",99000,40,24000),
+    ("Scott","Finance","NY",83000,36,19000),
+    ("Jen","Finance","NY",79000,53,15000),
+    ("Jeff","Marketing","CA",80000,25,18000),
+    ("Kumar","Marketing","NY",91000,50,21000)
+  ]
+
+schema = ["employee_name","department","state","salary","age","bonus"]
+df = spark.createDataFrame(data=simpleData, schema = schema)
+df.printSchema()
+df.show(truncate=False)
+
+pyspark:
+- GroupBy, Having functions
+- Lead, Lag, Last, Row Frame, Range Frame functions
+- Split and concatenate strings
+- Handing nulls, fillna, drop
+- ListTables, ListColumns
+- Joins, Case statements (when, otherWise)
+- Date functions, DateDiff, DateAdd, DatePart
+- Cast and convert functions
+- Partition, Rank, Dense Rank functions
+- Foreach, Foreachpartition, Map, mapPartitions
+- Create table with ORC, Parquet
+- Parse and flatten Json, XML
+- Delete, Truncate, Modify Table, Alter columns, drop columns, Alter schema
+- Create, register and use UDF
+- Indexing
+- Persist and Cache
+- Delta Lake on databricks, Merge into Delta Lake
+- Broadcast, mapside join
+- configure executors, cores and memory, shuffle partitions, parallelism
+- Execution plan, jobs, stages, SQL tabs
+- Create and Execute jobs
+- Automate cluster creation
+- Visual Studio Code, create pyspark program, create jar, spark submit
+
+from pyspark.sql.functions import sum,avg,min,max,round,col
+df.groupBy("department") \
+.agg(sum("salary").alias("sum_salary"), \
+	round(avg("salary"),2).alias("avg_salary") \
+).where(col("sum_salary")>=250000).show()
