@@ -32,6 +32,7 @@ https://medium.com/datalex/on-spark-performance-and-partitioning-strategies-7299
 https://medium.com/datalex/sparks-logical-and-physical-plans-when-why-how-and-beyond-8cd1947b605a
 https://medium.com/dataseries/determining-number-of-partitions-in-apache-spark-part-i-e21a9ced6ad4
 https://medium.com/swlh/building-partitions-for-processing-data-files-in-apache-spark-2ca40209c9b7
+https://itnext.io/how-to-create-a-simple-etl-job-locally-with-pyspark-postgresql-and-docker-ea53cd43311d
 https://blog.clairvoyantsoft.com/optimize-the-skew-in-spark-e523c6ee18ac
 
 simpleData = [("James","Sales","NY",90000,34,10000),
