@@ -6,3 +6,6 @@ API: /idws/vehicle/vin/id/{vin}
 
 Using python in azure functions:
 https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-python
+
+Call API from Azure functions and save it in Azure data lake gen2:
+https://social.msdn.microsoft.com/Forums/en-US/300c0478-dad4-49d0-bbed-8177adbbf817/using-azure-functions-with-c-to-call-rest-api-and-save-results-in-azure-data-lake-gen2
