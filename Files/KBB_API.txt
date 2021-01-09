@@ -1,0 +1,8 @@
+http://developer.kbb.com/#!/idws/99-Swagger
+Endpoint: https://api.kbb.com/idws/
+Key: ca758f98f2fe4e99a3db641c9
+KBB testing key: c9f1ccfb564f4683b376670c3
+API: /idws/vehicle/vin/id/{vin}
+
+Using python in azure functions:
+https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-python
