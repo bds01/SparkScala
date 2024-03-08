@@ -63,8 +63,8 @@ import json
 url = "https://api.foresee.com/v1/token"
 
 querystring = {"scope":"r_cx_basic","grant_type":"client_credentials"}
-ClientID= "jQxJsXcPm7lw1tMewLTyULQBlfqB02jh"
-Clientsecret= "boa3h9pOxHODTO9enSvO"
+ClientID= ""
+Clientsecret= ""
 
 AccessCode = ClientID+":"+Clientsecret
 # print(AccessCode)
